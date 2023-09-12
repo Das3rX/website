@@ -1,16 +1,16 @@
 <html>
     <head>
-        <title>Test</title>
+        <title>Usata Automibili</title>
         <style>
             body {
                 background-color: lightslategray;
-                height:500%;
+                height:100%;
                 margin: 0;
             }
             
 
             .title {
-                font-size: 50px
+                font-size: 75px
             }
 
             .green-header {
@@ -26,20 +26,61 @@
             }
 
             .italyflag {
-                width: 65px;
+               
+                width: 7%;
+                position: relative;
+                bottom: 75px;
+                left:38%;
             }
+            
 
             hr {
                 position absolute;
                 top: 30px;
                 width: 100%;
             }
+
+            .depuis {
+            position: absolute;
+            top: 8.5%;
+            right: 0.5%;
+            font-size: 20px;
+            }
+
+            .accueil {
+               position: relative;
+              bottom:55px;    
+              left: 30px;           
+            }
+
+            .produits {
+               position: relative;
+               bottom:80px;
+               left: 170px;
+            }
+
+            .apropos {
+               position: relative;
+               bottom: 105px;
+               left: 320px
+
+            }
+
+
+            .button {
+                z-index: 2;
+               font-size: 20px;
+               color: white;
+               background-color:transparent;
+               border: transparent;
+            }
+            .button:hover {
+               text-decoration: underline overline;
+               font-size: 22px;
+
+            }
             
 
-            .depuis-container {
-                text-align: right;
-                font-size: 20px;
-            }
 
             .bottomfooter {
                 background-color: darkred;
@@ -48,33 +89,71 @@
                 bottom: 0;
                 left:0;
                 width: 100%;
-                height:75px;
+                height:15%;
             }
             .topfooter {
-                border-top: white solid 1px;
-                border-bottom: white solid 1px;
+                border-top: white solid 1.5px;
+                border-bottom: white solid 1.5px;
                 background-color: green;
-                position: relative;
-                top: 0px;
+                position: absolute;
                 z-index: 1;
                 width: 100%;
-                height: 35px;
+                height: 40px;
                 left: 0;
                 right: 0;
+                top: 13%;
+                bottom: 70px;
+                margin-top: 0;
+            }
+            .pickup {
+                background-color: lightgray;
+                border: solid black 2px;
+                position: absolute;
+                width: 34%;
+                height: 35%;
+                left: 10%
+
+
             }
         </style>
     </head>
     <body>
-        <b class="title green-header"> Usata</b>
-        <b class="title red-header"> Auto</b>
-        <b class="title white-header" <b>mobili</b> &nbsp; &nbsp; <img class="italyflag" src="Flag_of_Italy.png">
-        <div class="depuis-container">
-            <i>Depuis 1992</i>
-        </div>
-        
-
-    
+      <div>
+        <b class="title green-header">Usata</b>
+        <b class="title red-header">Auto</b>
+        <b class="title white-header">mobili</b>
+        <div>
+         <img class="italyflag" src="Flag_of_Italy.png">
+         <div><i class="depuis">Depuis 1992</i></div>
+      </div>
+     </div>
+     
         <div class="topfooter"></div>
+          <div>
+            <button class="button accueil"><b>Accueil</b></button>
+          </div>
+          <div>
+            <button class="button produits"><b>Produits</b></button>
+          </div>
+          <div>
+            <button class="button apropos"><b>À Propos</b></button>
+          </div>
+
+
+          <div class="pickup">
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
     <div class="bottomfooter"></div>
     </body>
 </html>
